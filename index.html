@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>One Little Question…</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Ambient background -->
+  <div class="sky">
+    <div class="moon"></div>
+    <div class="stars stars-one"></div>
+    <div class="stars stars-two"></div>
+    <div class="stars stars-three"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+  </div>
+
+  <div id="petals"></div>
+
+  <!-- ================= PAGE 1 ================= -->
+
+  <main id="pageOne" class="page page-one active">
+
+    <!-- Opening -->
+    <section id="opening" class="opening">
+
+      <div class="opening-small">A little something...</div>
+
+      <h1>Mr. Yogesh<span>…</span></h1>
+
+      <div class="opening-line"></div>
+
+      <p>I have something to tell you.</p>
+
+    </section>
+
+
+    <!-- Main message -->
+    <section id="firstMessage" class="message-card hidden">
+
+      <div class="card-top">
+        <span>01</span>
+        <span>for you, always</span>
+      </div>
+
+      <div class="message-content">
+
+        <p>
+          I know aap abhi aisa kuch nahi bolna chahte,
+          par main chahti hoon… taaki aapko mujhpar believe ho.
+        </p>
+
+        <p>
+          Pata hai, maine kabhi socha nahi tha ki life mein aisa bhi hoga…
+          ki main kabhi aapke saath bhi reh paungi, aapse baat bhi ho payegi.
+        </p>
+
+        <p>
+          Par ab hua hai… toh main ab aapko khud se door nahi karna chahti.
+        </p>
+
+        <p>
+          Mujhe nahi pata you trust me or not, but you know what…
+          I am deeply attached to you, addicted to you,
+          and I believe in you more than myself.
+        </p>
+
+        <p>
+          Pyaar par bharosa nahi hai na aapko? Ho jayega.
+        </p>
+
+        <p>
+          Lagta hai na aapko ki sab ladkiyan ek jaisi hi hoti hain?
+          Woh bhi samajh aa jayega ki hoti hain ya nahi.
+        </p>
+
+        <p>
+          Theek hai, ladkiyan kaisi bhi hoti ho…
+          par at least main aisi nahi hoon.
+          Aur ye aap jaante honge… shayad. 🤍
+        </p>
+
+        <p>
+          Chalo, ye sab chhodo.
+        </p>
+
+        <p>
+          Aapki feelings jo bhi hain, bas ek baar jaana hai.
+          Main force nahi karungi.
+          Jab bhi aapko theek lage, aap bata dena.
+        </p>
+
+        <p>
+          Par main ye chahti hoon ki meri feelings ka aapko pata ho…
+          taaki aapko mujhpar trust ho jaye.
+        </p>
+
+        <p>
+          So Mr. Yogesh, I wanted to ask you and tell you that…
+        </p>
+
+        <p class="tease">
+          Wait wait… aise kaise?<br>
+          Thoda toh dimaag chalana padega na aapko. 😭🤍
+        </p>
+
+      </div>
+
+      <button id="oneMoreButton" class="elegant-button">
+        <span>One more thing…</span>
+        <b>✦</b>
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= PAGE 2 ================= -->
+
+  <main id="pageTwo" class="page page-two">
+
+    <!-- Password -->
+    <section id="passwordScreen" class="second-screen">
+
+      <div class="chapter-number">02</div>
+
+      <div class="tiny-label">JUST A LITTLE SECRET</div>
+
+      <h2>One last little step.</h2>
+
+      <p class="subtext">
+        If you really want to know what<br>
+        I wanted to say…
+      </p>
+
+      <div class="lock-symbol">⌁</div>
+
+      <div class="password-box">
+
+        <input
+          id="passwordInput"
+          type="password"
+          inputmode="numeric"
+          maxlength="4"
+          placeholder="••••"
+          autocomplete="off"
+        >
+
+        <button id="unlockButton" aria-label="Unlock">
+          <span>Unlock</span>
+          <span>→</span>
+        </button>
+
+      </div>
+
+      <p id="passwordError"></p>
+
+      <div class="hint">
+        four little numbers 🤍
+      </div>
+
+    </section>
+
+
+    <!-- Heart -->
+    <section id="heartScreen" class="second-screen hidden">
+
+      <div class="chapter-number">♡</div>
+
+      <div class="tiny-label">A LITTLE SOMETHING INSIDE</div>
+
+      <h2>There's something<br>hidden here.</h2>
+
+      <p class="subtext">
+        Maybe you should<br>
+        take a closer look.
+      </p>
+
+      <button id="heartButton" class="heart-button" aria-label="Open heart">
+        <span class="heart-glow"></span>
+        <span class="heart">🫀</span>
+      </button>
+
+      <p class="tap-label">tap the heart</p>
+
+    </section>
+
+
+    <!-- Final -->
+    <section id="finalScreen" class="final-screen hidden">
+
+      <div class="final-card">
+
+        <div class="final-top">
+          <span>FOR YOU</span>
+          <span>♡</span>
+        </div>
+
+        <div class="final-text">
+
+          <p>
+            I don't know what the future holds for us,
+            and I don't want to force an answer from you.
+          </p>
+
+          <p>
+            I just know that somewhere along the way,
+            you became someone I don't want to lose.
+          </p>
+
+          <p>
+            You became a person I look forward to,
+            a person I trust, and someone who means
+            much more to me than I ever expected.
+          </p>
+
+          <p>
+            So today, I'm not asking for a perfect answer…
+          </p>
+
+          <p>
+            I'm just asking you to take one little step
+            toward me. 🤍
+          </p>
+
+          <div class="question-area">
+
+            <div class="question-small">
+              And now, Mr. Yogesh…
+            </div>
+
+            <h2>Will you be mine?</h2>
+
+          </div>
+
+          <div class="signature">
+            — Aaru 🤍
+          </div>
+
+          <div class="last-secret">
+            <span>Wait…</span>
+            there's still one thing I haven't said…
+          </div>
+
+          <div id="loveReveal" class="love-reveal">
+            <div class="love-line"></div>
+            <h1>I LOVE YOU.</h1>
+            <div class="love-heart">♡</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+  </html>
